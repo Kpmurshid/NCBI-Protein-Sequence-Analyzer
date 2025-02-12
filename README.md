@@ -55,3 +55,13 @@ Mandatory arguments:
     Biopython
 
     Pandas
+
+## ⚠️ Disclaimer
+
+This tool is provided for **research purposes only**. Users should:
+- Comply with NCBI's [Data Usage Policies](https://www.ncbi.nlm.nih.gov/home/about/policies/)
+- Respect NCBI's rate limits (max 3 requests/second)
+- Verify results through official NCBI channels
+- Not use this for protected health information or sensitive data
+
+The authors make no warranties about data accuracy or completeness. Use at your own risk.
