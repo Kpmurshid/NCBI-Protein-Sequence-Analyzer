@@ -16,24 +16,23 @@ A Python tool to fetch and analyze protein sequences from NCBI with associated m
 git clone https://github.com/Kpmurshid/GyraseMutantAnalyzer.git
 cd GyraseMutantAnalyzer
 ```
-# Install dependencies:
+## Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-# Usage
-
-# Basic command:
+## Usage
+Basic command:
 ```bash
 python gyrase_mutant_analyzer.py --email your.email@example.com --query "your NCBI search query"
 ```
 
-# Example query:
+## Example query:
 ```bash
 python gyrase_mutant_analyzer.py --email researcher@university.edu --query \
 "(mutant[All Fields] AND (Gyrase A[Protein Name]) AND bacteria[Organism]"
 ```
-# Output Structure
+## Output Structure
 
     protein_metadata.csv: Contains all annotation data
 
@@ -41,7 +40,7 @@ python gyrase_mutant_analyzer.py --email researcher@university.edu --query \
 
     nucleotide_sequences/: FASTA files of linked DNA sequences
 
-# Configuration
+## Configuration
 
 Mandatory arguments:
 
@@ -49,7 +48,7 @@ Mandatory arguments:
 
     --query: NCBI search query in quotes
 
-# Dependencies
+## Dependencies
 
     Python 3.7+
 
